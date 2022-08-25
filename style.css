@@ -275,24 +275,32 @@
          
          .world-characters#top-characters {
              height: 100%;
+             background-color: var(--character-top-image-color);
+             bottom: -3px;
+             mask: var(--character-top-image-src) bottom / contain no-repeat;
+             -webkit-mask: var(--character-top-image-src) bottom / 100% no-repeat;
+             /*height: 100%;
              bottom: -3px;
              background-image: url(./assets/images/characters/kids-on-the-bike.svg);
              background-repeat: no-repeat;
              background-size: 100%;
-             background-position: bottom;
+             background-position: bottom;*/
          }
          
          .world-characters#bottom-characters {
              height: 500px;
-             background-color: #e5e5e5;
              transform: rotateZ(180deg) scaleX(-1);
+             background-color: var(--character-bottom-image-color);
+             position: relative;
              /*Virando a imagem 180°*/
-             background-image: url("./assets/images/characters/inverted-world-monster.svg");
+             /*background-image: url("./assets/images/characters/inverted-world-monster.svg");
              background-size: 100%;
              background-repeat: no-repeat;
-             position: relative;
+            
              border: none;
-             background-position: top;
+             background-position: top;*/
+             mask: var(--character-bottom-image-src) bottom / contain no-repeat;
+             -webkit-mask: var(--character-bottom-image-src) bottom / 100% no-repeat;
          }
          /* Section 04 - Dungeons & Dragons Form */
          
