@@ -8,7 +8,7 @@ Semana Front-End - Projeto Mundo Invertido
 
 # Link do Projeto
 
-<a href="https://anikape.github.io/MundoInvertido-DIO"> Mundo Invertid </a>
+<a href="https://anikape.github.io/MundoInvertido-DIO"> Mundo Invertido </a>
 
 
 
